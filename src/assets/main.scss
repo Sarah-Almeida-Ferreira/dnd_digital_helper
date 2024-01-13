@@ -3,8 +3,8 @@
 
 #app {
   max-width: 1280px;
-  margin: 0 auto;
   padding: 2rem;
+  width: 100%;
   font-weight: normal;
 }
 
@@ -33,4 +33,29 @@ a,
     grid-template-columns: 1fr 1fr;
     padding: 0 2rem;
   }
+}
+
+
+.border-none {
+  border: none;
+}
+
+.border-none:focus {
+  outline: none;
+}
+
+::-webkit-input-placeholder {
+  color: hsl(0, 0%, 71%, 0.5);
+}
+
+:-moz-placeholder { /* Firefox 18- */
+  color: hsl(0, 0%, 71%, 0.5);  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+  color: hsl(0, 0%, 71%, 0.5);  
+}
+
+:-ms-input-placeholder {  
+  color: hsl(0, 0%, 71%, 0.5);  
 }
